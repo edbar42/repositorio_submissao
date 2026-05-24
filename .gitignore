@@ -1,23 +1,15 @@
-# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.egg-info/
 .pytest_cache/
 
-# Ambientes virtuais e gerenciadores
 .venv/
 venv/
 uv.lock
 
-# Artefatos de modelo (gerados localmente pelo treinar.py;
-# o modelo final commitado é apenas `modelo.joblib` adicionado manualmente)
-modelo.joblib
-
-# Dados (vivem no repositório de desenvolvimento ds_trab2)
 data/
 
-# IDE
 .vscode/
 .idea/
 *.swp
